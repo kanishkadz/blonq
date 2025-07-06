@@ -1,9 +1,16 @@
-function App() {
-  return (
-    <>
-      <h1 className="text-lg text-amber-400">Blonq</h1>      
-    </>
-  )
-}
+import Navbar from "./components/Navbar";
 
-export default App
+const App = () => {
+  return (
+    <div className="px-4 md:px-8 lg:px-16 lx:px-32 2xl:px-64">
+      {/* NAVBAR */}
+      <Navbar />
+      {/* BREADCRUMB */}
+      {/* INTRODUCTION */}
+      {/* FEATURED POSTS */}
+      {/* POST LIST */}
+    </div>
+  );
+};
+
+export default App;
